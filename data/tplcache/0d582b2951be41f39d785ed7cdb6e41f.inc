@@ -1,0 +1,5 @@
+<div class="articleList">
+<ul>
+<li><span class='time'>[field:pubdate function="MyDate('Y-m-d',@me)"/]</span><a href='[field:arcurl/]' alt='[field:title/]'>[field:title/]</a></li>
+</ul>
+</div>

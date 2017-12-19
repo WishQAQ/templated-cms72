@@ -1,0 +1,60 @@
+<div id="top">
+<div class="block">
+<div class="f_l">
+<div class="welcome"><h1>{dede:global.cfg_tbhyy/}</h1></div>
+<div class="showtime"></div>
+</div>
+<div class="f_r">
+<div class="share"><div class="bshare-custom"><a title="分享到QQ空间" class="bshare-qzone"></a><a title="分享到新浪微博" class="bshare-sinaminiblog"></a><a title="分享到人人网" class="bshare-renren"></a><a title="分享到腾讯微博" class="bshare-qqmb"></a><a title="分享到网易微博" class="bshare-neteasemb"></a><a title="更多平台" class="bshare-more bshare-more-icon more-style-addthis"></a><span class="BSHARE_COUNT bshare-share-count">0</span></div><script type="text/javascript" charset="utf-8" src="/skin/Scripts/buttonlite.js"></script><script type="text/javascript" charset="utf-8" src="/skin/Scripts/bsharec0.js"></script></div>
+<div class="favorite">
+<ul>
+<li><a href="javascript:void(0);" onclick="SetHome();">设为首页</a></li>
+<li><a href="javascript:void(0);" onclick="AddFavorite();">加入收藏</a></li>
+<li><a href="[field:typelink/]">联系我们</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+<div class="block">
+<div id="head">
+<div id="logo"><a href="{dede:global.cfg_basehost/}" title="{dede:global.cfg_indexname/}"><img src="/skin/Picture/logo.jpg" alt="{dede:global.cfg_webname/}" /></a></div>
+<div id="head_right">
+<div id="tel">{dede:global.cfg_tbdhhm/}</div>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+<div class="nav">
+<div class="block">
+<div id="navigate">
+
+<ul>
+<li class="first_menu">
+ <b><a href='{dede:global.cfg_cmsurl/}/' {dede:field name=typeid runphp="yes"}(@me=="")? @me=" class='current' ":@me="";{/dede:field}>网站首页</a></b>
+ </li>
+{dede:channelartlist typeid='top' } 
+<li>
+ <b><a href="{dede:field name='typeurl'/}" {dede:field name='currentstyle'/}>{dede:field name='typename'/}</a></b>
+ <ul class="fixfloat">
+ {dede:channel type='son' noself='yes'}
+ <li><a href="[field:typelink/]">[field:typename/]</a></li> {/dede:channel} </ul></li> {/dede:channelartlist}
+ </ul>
+
+</div>
+</div>
+</div>
+<div class="clear"></div>
+<div id="flash">
+<div class="fullSlide">
+
+<div class="bd">
+<ul>
+ <li _src="url(/skin/images/1.jpg)"  style="background: no-repeat center top;"><a href="" title="模板网站建设"></a></li>
+        <li _src="url(/skin/images/2.jpg)"  style="background: no-repeat center top;"><a href="/" title="1"></a></li>
+        <li _src="url(/skin/images/3.jpg)"  style="background: no-repeat center top;"><a href="/" title="5"></a></li></ul>
+</div>
+
+<div class="hd"><ul></ul></div><span class="prev"></span><span class="next"></span></div></div>
+<div class="clear"></div>
